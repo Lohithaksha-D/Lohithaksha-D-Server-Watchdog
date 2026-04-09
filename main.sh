@@ -86,4 +86,4 @@ if [[ "$CPU_LOAD" -ge "$THRESHOLD" ]]; then
     send_discord_alert "$MSG"
 else
     echo "[+] NORMAL: CPU load is at ${CPU_LOAD}%"
-fima
+fi
